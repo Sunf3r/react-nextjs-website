@@ -1,0 +1,26 @@
+{
+    "consoleLog": {
+        "scope": "typescript",
+        "prefix": "clg",
+        "body": "console.info($1)"
+    },
+    "createRoute": {
+        "scope": "typescript",
+        "prefix": "newRoute",
+        "body": [
+            "import type { Ctx } from \"../../index.d.ts\"",
+            "import route from \"../Components/Routes.ts\";",
+            "",
+            "export default class $1 extends route {",
+            "    paths = ['$2'];",
+            "    method = '$3';",
+            "",
+            "    async exec(ctx: Ctx): Promise<string> {",
+            "       $4",
+            "",
+            "        return '';",
+            "    }",
+            "}"
+        ]
+    }
+}

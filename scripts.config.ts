@@ -11,7 +11,7 @@ const config: DenonConfig = {
     },
     logger: {
         fullscreen: false,
-        quiet: false,
+        quiet: true,
         debug: false,
     },
     scripts: {

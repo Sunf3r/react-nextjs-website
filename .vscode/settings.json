@@ -2,5 +2,5 @@
     "deno.enable": true,
     "deno.lint": false,
     "deno.unstable": true,
-    "editor.tabSize": 4
+    "standard.enable": true
 }

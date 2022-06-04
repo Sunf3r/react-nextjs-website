@@ -11,5 +11,12 @@ interface Ctx extends Context {
 interface Route {
     paths: string[];
     method: string;
+    hasHtml?: boolean;
     disabled?: boolean;
+}
+
+declare global {
+    interface String {
+        toPascalCase(): string;
+    }
 }
