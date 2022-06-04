@@ -15,4 +15,4 @@ app.start({
     port: 8080
 });
 
-console.log("SERVER", `Server Started!`, 5);
+console.log("SERVER", `Servidor iniciado!`, 5);

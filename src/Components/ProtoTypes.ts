@@ -58,5 +58,5 @@ export default async function () {
 
     }
 
-    console.log("SERVER", "Prototypes created!", 9);
+    console.log("SERVER", "Prototypes configurados", 9);
 }

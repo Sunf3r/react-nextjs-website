@@ -11,7 +11,7 @@ interface Ctx extends Context {
 interface Route {
     paths: string[];
     method: string;
-    hasHtml?: boolean;
+    type?: number;
     disabled?: boolean;
 }
 
