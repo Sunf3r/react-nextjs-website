@@ -1,4 +1,4 @@
-import { moment } from 'https://deno.land/x/deno_moment@v1.1.2/mod.ts';
+import { moment } from "../libraries.ts";
 
 export default async function () {
     //      console.log()
@@ -22,7 +22,8 @@ export default async function () {
         }
 
         console.log = function () {
-            let a = [...arguments]; // 'arguments' está presente em toda function normal 
+            let a = [...arguments];
+            // 'arguments' está presente em toda function normal 
             // e representa todos os parâmetros passados na função
 
             if (a[2] && typeof a[a.length - 1] === 'number' && a[0].split('/')[0] === a[0].split('/')[0].toUpperCase()) {

@@ -7,6 +7,7 @@ import ProtoTypes from "./Components/ProtoTypes.ts";
 await ProtoTypes(); // configurando prototypes...
 const app = new Application() as App;
 app.pages = new Map();
+
 // adicionando rotas ao pai App
 await loadRoutes('./src/Routes', app);
 

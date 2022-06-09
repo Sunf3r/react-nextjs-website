@@ -36,7 +36,7 @@ export async function loadRoutes(path: string, app: App) {
 
             if (!type) {
                 // nem toda rota retornará um arquivo html
-                // o hasHtml serve para nos dizer isso
+                // o type serve para nos dizer isso
                 // que fofoqueiro, fica aí falando da vida dos outros
                 const page = await Deno.readTextFile(`./src/Pages/${r.name}.html`);
                 // salvar os htmls em cache é útil para recarregar rapidamente

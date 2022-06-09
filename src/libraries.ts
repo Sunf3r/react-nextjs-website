@@ -3,5 +3,6 @@
 // não seria legal repetir urls de repositórios em todo arquivo
 
 import { Application, Context } from "https://deno.land/x/abc@v1.3.3/mod.ts";
+import { moment } from "https://deno.land/x/deno_moment@v1.1.2/mod.ts";
 
-export { Application, Context };
+export { Application, Context, moment };
