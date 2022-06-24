@@ -1,0 +1,22 @@
+{
+  "name": "sunf3r",
+  "version": "1.0.0",
+  "description": "✨ This is a generic and ugly website made using html and css ✨",
+  "main": "index.js",
+  "scripts": {
+    "start": "denon start",
+    "postinstall": "curl -fsSL https://deno.land/install.sh | sh && deno install -qAf --unstable https://deno.land/x/denon/denon.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heryson1616/herywebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Heryson1616/herywebsite/issues"
+  },
+  "homepage": "https://github.com/Heryson1616/herywebsite#readme"
+}
