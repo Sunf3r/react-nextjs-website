@@ -23,8 +23,7 @@ const config: DenonConfig = {
             desc: 'Start application',
             watch: false,
             allow: {
-                read: true,
-                net: true
+                all: true
             }
         },
         dev: {
@@ -32,8 +31,7 @@ const config: DenonConfig = {
             desc: 'Start application in development mode',
             watch: true,
             allow: {
-                read: true,
-                net: true
+                all: true
             }
         }
     }
