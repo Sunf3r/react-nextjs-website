@@ -1,0 +1,1 @@
+web: curl -fsSL https://deno.land/install.sh | sh && deno install -qAf --unstable https://deno.land/x/denon/denon.ts && denon start

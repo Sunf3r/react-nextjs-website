@@ -20,3 +20,5 @@ declare global {
         toPascalCase(): string;
     }
 }
+
+type RouteMethods = 'get' | 'post' | 'file' | 'any';

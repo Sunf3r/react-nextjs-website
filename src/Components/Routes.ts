@@ -1,4 +1,4 @@
-import type { App, Route } from "../../index.d.ts";
+import type { App, Route, RouteMethods } from "../../index.d.ts";
 
 export default abstract class route implements Route {
     paths!: string[];
@@ -30,9 +30,11 @@ export async function loadRoutes(path: string, app: App) {
                 .default(app);
             // importando a classe do módulo
 
-            for (const p of paths)
-                app[!method ? 'get' : method as 'get'](p, exec);
             // criando rotas no server
+            for (const p of paths) {
+                if (method === 'file') app.file(p, `./src/Pages/${r.name}.html`);
+                else app[!method ? 'get' : method as RouteMethods](p, exec);
+            }
 
             if (!type) {
                 // nem toda rota retornará um arquivo html

@@ -3,11 +3,9 @@ import route from "../Components/Routes.ts";
 
 export default class Home extends route {
     paths = ['/home', '/'];
-    method = 'get';
+    method = 'file';
 
     async exec(ctx: Ctx): Promise<string> {
-        let url = ctx.path === '/' ? 'home' : ctx.path.replace('/', '');
-
-        return ctx.app.pages.get(url)!;
+        return '';
     }
 }

@@ -13,7 +13,7 @@ If you want to run it on your machine, you'll need to:
 
 ### `2 -` 📁 Download the above files and clone the repository:
 ```bash
-git clone https://github.com/Heryson1616/herywebsite
+git clone https://github.com/Sunf3r/website
 ```
 
 ### `3 -` 🧰 Install the necessary dependencies to run the project:

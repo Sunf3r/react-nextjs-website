@@ -50,7 +50,7 @@ export default async function () {
 
     //      String.toPascalCase()
     {
-        // 'hery'.toPascalCase() === 'Hery'
+        // 'deno'.toPascalCase() === 'Deno'
         Object.defineProperty(String.prototype, 'toPascalCase', {
             value: function () {
                 return String(this).slice(0, 1).toUpperCase() + String(this).slice(1).toLowerCase();
