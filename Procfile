@@ -1,1 +1,1 @@
-web: denon start
+web: curl -fsSL https://deno.land/install.sh | sh && export DENO_INSTALL="/app/.deno" && export PATH="$DENO_INSTALL/bin:$PATH" && /app/.deno/bin/deno install -qAf --unstable https://deno.land/x/denon/denon.ts && /app/.deno/bin/denon start

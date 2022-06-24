@@ -4,9 +4,7 @@
   "description": "✨ This is a generic and ugly website made using html and css ✨",
   "main": "index.js",
   "scripts": {
-    "start": "/app/.deno/bin/denon start",
-    "postinstall": "curl -fsSL https://deno.land/install.sh | sh && npm run setpaths && /app/.deno/bin/deno install -qAf --unstable https://deno.land/x/denon/denon.ts",
-    "setpaths": "export DENO_INSTALL=\"/app/.deno\" && export PATH=\"$DENO_INSTALL/bin:$PATH\""
+    "test": "echo a"
   },
   "repository": {
     "type": "git",
