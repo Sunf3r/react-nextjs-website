@@ -13,7 +13,7 @@ await loadRoutes('./src/Routes', app);
 
 app.start({
     hostname: 'localhost',
-    port: 8080
+    port: 80
 });
 
 console.log("SERVER", `Servidor iniciado!`, 5);
